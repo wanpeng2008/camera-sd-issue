@@ -12,8 +12,10 @@ export class CameraComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() { }
-  takePicuture(event) {
+  ngOnInit() { 
+    camera.requestPermissions();
+  }
+  takePicture(event) {
     var options = { width: 300, height: 300, keepAspectRatio: false, saveToGallery: true };
     camera.takePicture(options).
         then((imageAsset) => {

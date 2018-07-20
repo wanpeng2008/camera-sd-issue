@@ -1,6 +1,0 @@
-.vscode/
-node_modules/
-platforms
-package-lock.json
-app/**.js
-app/**.css

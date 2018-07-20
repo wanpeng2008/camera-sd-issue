@@ -1,0 +1,8 @@
+.vscode/
+node_modules/
+platforms/
+package-lock.json
+app/*.js
+app/**/*.js
+app/*.css
+app/**/*.css
